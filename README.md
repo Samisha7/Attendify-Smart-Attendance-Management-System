@@ -26,11 +26,11 @@ A full-stack web app for teachers to track attendance, manage student records, a
 
 ### Install dependencies
 ```bash
-# Server
-cd server && npm install
+# Backend
+cd backend && npm install
 
-# Client
-cd client && npm install
+# Frontend
+cd frontend && npm install
 ```
 
 ### Configure environment
@@ -38,7 +38,7 @@ Edit `server/.env` — defaults work with local MongoDB.
 
 ### Seed demo data
 ```bash
-cd server && npm run seed
+cd backend && npm run seed
 ```
 This creates:
 - 1 teacher account: `teacher@attendify.com` / `password123`
@@ -50,12 +50,12 @@ This creates:
 
 **Terminal 1 — Backend:**
 ```bash
-cd server && npm run dev
+cd backend && npm run dev
 ```
 
 **Terminal 2 — Frontend:**
 ```bash
-cd client && npm run dev
+cd frontend && npm run dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173)
